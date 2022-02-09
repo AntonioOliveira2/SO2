@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "123",
+        "abc"
+      ],
+      "stopAtEntry": false,
+      "cwd": "/home/antonio/shared_temp/SO/Projeto/tecnicofs_ex2",
+      "environment": [],
+      "program": "/home/antonio/shared_temp/SO/Projeto/tecnicofs_ex2/tests/simple_test",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
